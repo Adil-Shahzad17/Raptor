@@ -1,5 +1,5 @@
 import React from 'react'
-import { Home } from '../Components/index'
+import { Home } from "../Components/index"
 
 const HomePage = () => {
     return (
@@ -8,3 +8,4 @@ const HomePage = () => {
 }
 
 export default HomePage
+
