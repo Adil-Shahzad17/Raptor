@@ -1,4 +1,4 @@
-import Home_Page from "./Home_page";
+import Home_Page from "./Home_Page";
 import Guest_Page_Page from "./Guest_Page_Page";
 import About_page from "./About_page";
 import Contact_page from "./Contact_page";
