@@ -7,7 +7,7 @@ export default {
         mm: "420px", // Custom breakpoint for 420px
       },
       colors: {
-        "button-color": "#006d77", // Custom button color
+        "button-color": "#1fa77e", // Custom button color
       },
       keyframes: {
         colorChange: {

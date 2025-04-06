@@ -3,11 +3,8 @@ import { Button } from "../Components/index"
 import { ReactTyped } from "react-typed"
 import GuestImage from "../Assets/guestImage.jpg"
 import { Link } from 'react-router-dom'
-import { useSelector } from 'react-redux'
 
 const Guest_Page = () => {
-
-    const userInfo = useSelector((state) => state.pexels.status)
 
     return (
         <section className='w-full bg-cover bg-center ' style={{ height: "100%", backgroundImage: `url(${GuestImage})` }}>
@@ -36,12 +33,8 @@ const Guest_Page = () => {
                         Beyond the horizon, a journey unfolds unlike any other.
                     </p>
                 </div>
-
-                {
-                    !userInfo && <p>Create a new Account or Sign In to kick off.</p>
-                }
                 <Link to='/sign_up'>
-                    <Button text="Sign up for Free" className='p-3 px-7 bg-button-color rounded-full text-[#000] hover:text-white md:mt-4 md:px-10 md:text-xl' />
+                    <Button text="Sign up for Free" className='p-3 px-7 bg-button-color rounded-xl text-[#000] hover:text-white md:mt-4 md:px-10 md:text-xl' />
                 </Link>
             </div>
         </section>
